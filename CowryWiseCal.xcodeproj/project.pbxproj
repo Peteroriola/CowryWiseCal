@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		042750B422E2042500AFB00B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042750B322E2042500AFB00B /* AppDelegate.swift */; };
-		042750B622E2042500AFB00B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042750B522E2042500AFB00B /* ViewController.swift */; };
+		042750B622E2042500AFB00B /* CurrencyCalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042750B522E2042500AFB00B /* CurrencyCalViewController.swift */; };
 		042750B922E2042500AFB00B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042750B722E2042500AFB00B /* Main.storyboard */; };
 		042750BB22E2042600AFB00B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 042750BA22E2042600AFB00B /* Assets.xcassets */; };
 		042750BE22E2042600AFB00B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 042750BC22E2042600AFB00B /* LaunchScreen.storyboard */; };
+		042750C722E204FE00AFB00B /* DrawerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 042750C522E204FE00AFB00B /* DrawerViewController.swift */; };
+		042750C822E204FE00AFB00B /* DrawerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 042750C622E204FE00AFB00B /* DrawerViewController.xib */; };
+		5C4DC163EEECF10E1D668F05 /* Pods_CowryWiseCal.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2C07C53D3151196BB40E3478 /* Pods_CowryWiseCal.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		042750B022E2042500AFB00B /* CowryWiseCal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CowryWiseCal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		042750B322E2042500AFB00B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		042750B522E2042500AFB00B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		042750B522E2042500AFB00B /* CurrencyCalViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyCalViewController.swift; sourceTree = "<group>"; };
 		042750B822E2042500AFB00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		042750BA22E2042600AFB00B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		042750BD22E2042600AFB00B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		042750BF22E2042600AFB00B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		042750C522E204FE00AFB00B /* DrawerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrawerViewController.swift; sourceTree = "<group>"; };
+		042750C622E204FE00AFB00B /* DrawerViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DrawerViewController.xib; sourceTree = "<group>"; };
+		2C07C53D3151196BB40E3478 /* Pods_CowryWiseCal.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CowryWiseCal.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		363D4FCD8072507C1B3BACE0 /* Pods-CowryWiseCal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CowryWiseCal.debug.xcconfig"; path = "Target Support Files/Pods-CowryWiseCal/Pods-CowryWiseCal.debug.xcconfig"; sourceTree = "<group>"; };
+		AACE5A78409117AB254FE255 /* Pods-CowryWiseCal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CowryWiseCal.release.xcconfig"; path = "Target Support Files/Pods-CowryWiseCal/Pods-CowryWiseCal.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +37,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4DC163EEECF10E1D668F05 /* Pods_CowryWiseCal.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +49,8 @@
 			children = (
 				042750B222E2042500AFB00B /* CowryWiseCal */,
 				042750B122E2042500AFB00B /* Products */,
+				A3922A6F0D77247A92FBBBB0 /* Pods */,
+				892FF07506960CEA1E1FE619 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,13 +66,32 @@
 			isa = PBXGroup;
 			children = (
 				042750B322E2042500AFB00B /* AppDelegate.swift */,
-				042750B522E2042500AFB00B /* ViewController.swift */,
+				042750B522E2042500AFB00B /* CurrencyCalViewController.swift */,
+				042750C522E204FE00AFB00B /* DrawerViewController.swift */,
+				042750C622E204FE00AFB00B /* DrawerViewController.xib */,
 				042750B722E2042500AFB00B /* Main.storyboard */,
 				042750BA22E2042600AFB00B /* Assets.xcassets */,
 				042750BC22E2042600AFB00B /* LaunchScreen.storyboard */,
 				042750BF22E2042600AFB00B /* Info.plist */,
 			);
 			path = CowryWiseCal;
+			sourceTree = "<group>";
+		};
+		892FF07506960CEA1E1FE619 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2C07C53D3151196BB40E3478 /* Pods_CowryWiseCal.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A3922A6F0D77247A92FBBBB0 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				363D4FCD8072507C1B3BACE0 /* Pods-CowryWiseCal.debug.xcconfig */,
+				AACE5A78409117AB254FE255 /* Pods-CowryWiseCal.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +101,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 042750C222E2042600AFB00B /* Build configuration list for PBXNativeTarget "CowryWiseCal" */;
 			buildPhases = (
+				A6F70103830368E54242B265 /* [CP] Check Pods Manifest.lock */,
 				042750AC22E2042500AFB00B /* Sources */,
 				042750AD22E2042500AFB00B /* Frameworks */,
 				042750AE22E2042500AFB00B /* Resources */,
+				86E302634DB62DC683D83B7A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				042750BE22E2042600AFB00B /* LaunchScreen.storyboard in Resources */,
+				042750C822E204FE00AFB00B /* DrawerViewController.xib in Resources */,
 				042750BB22E2042600AFB00B /* Assets.xcassets in Resources */,
 				042750B922E2042500AFB00B /* Main.storyboard in Resources */,
 			);
@@ -130,13 +163,75 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		86E302634DB62DC683D83B7A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CowryWiseCal/Pods-CowryWiseCal-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/ADCountryPicker/ADCountryPicker.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/CountryPickerView/CountryPickerView.framework",
+				"${BUILT_PRODUCTS_DIR}/Realm/Realm.framework",
+				"${BUILT_PRODUCTS_DIR}/RealmSwift/RealmSwift.framework",
+				"${BUILT_PRODUCTS_DIR}/ScrollableGraphView/ScrollableGraphView.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ADCountryPicker.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CountryPickerView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Realm.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RealmSwift.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ScrollableGraphView.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CowryWiseCal/Pods-CowryWiseCal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A6F70103830368E54242B265 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CowryWiseCal-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		042750AC22E2042500AFB00B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				042750B622E2042500AFB00B /* ViewController.swift in Sources */,
+				042750B622E2042500AFB00B /* CurrencyCalViewController.swift in Sources */,
 				042750B422E2042500AFB00B /* AppDelegate.swift in Sources */,
+				042750C722E204FE00AFB00B /* DrawerViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +375,7 @@
 		};
 		042750C322E2042600AFB00B /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 363D4FCD8072507C1B3BACE0 /* Pods-CowryWiseCal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -298,6 +394,7 @@
 		};
 		042750C422E2042600AFB00B /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AACE5A78409117AB254FE255 /* Pods-CowryWiseCal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
